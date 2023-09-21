@@ -57,16 +57,8 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-/**
- * Plays 5 games in a row with the user and then prints to the console the result
- * of each round.
- */
 function game() {
-    for (let i = 0; i < 5; i++) {
-        const playerSelection = prompt("Will you choose: Rock, Paper or Scissors?");
-        const computerSelection = getComputerChoice();
-        console.log(playRound(playerSelection, computerSelection));
-    }
+    
 }
 
 game();
